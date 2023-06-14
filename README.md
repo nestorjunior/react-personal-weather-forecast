@@ -13,7 +13,9 @@ Find out details of the weather forecast in your city
 ## :rocket: running the project
 To run the repository it is necessary to clone it, issue the following command to start the project:
 ```
-npm start
+cd react-personal-weather-forecast
+  npm install
+  npm run dev
 ```
 
 ## :handshake: Colaboradores
