@@ -1,12 +1,14 @@
-import {Button,Icon} from 'semantic-ui-react'
+import HomePage from './pages/HomePage'
+import Button from 'react-bootstrap/Button';
 
 const App = () => {
 
   return (
     <>
-      <Button className="icon"> 
-           Click here! 
-      <Icon name='right bell' /> 
+      <HomePage />
+
+      <Button as="a" variant="primary">
+        Button as link
       </Button>
     </>
   )
