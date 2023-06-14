@@ -21,7 +21,7 @@ npm start
   <tr>
     <td align="center">
       <a href="http://github.com/nestorjunior">
-        <img src="[https://avatars.githubusercontent.com/u/56259137?v=4](https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Side&eyebrowType=UpDown&mouthType=Serious&skinColor=Light')" width="100px;" alt="Avatar do Nestor no GitHub"/><br>
+        <img src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Side&eyebrowType=UpDown&mouthType=Serious&skinColor=Light" width="100px;" alt="Avatar do Nestor no GitHub"/><br>
         <sub>
           <b>Nestor</b>
         </sub>
