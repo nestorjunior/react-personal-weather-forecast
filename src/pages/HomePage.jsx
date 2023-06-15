@@ -1,7 +1,15 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
+
 const HomePage = () => {
     return (
         <>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, quaerat eligendi cumque facere non hic vero esse. Sunt quam quas molestias aliquam vero ut, enim, similique, blanditiis ipsum nemo libero.</p>
+            <div className="container-fluid">
+                <nav className="navbar bg-body-tertiary">
+                    <span className="navbar-brand mb-0 h3">Navbar</span>
+                    <FontAwesomeIcon icon={faUser} />
+                </nav>
+            </div>
         </>
     )
 }

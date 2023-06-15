@@ -1,15 +1,12 @@
 import HomePage from './pages/HomePage'
-import Button from 'react-bootstrap/Button';
+import FormLogin from './components/FormLogin'
 
 const App = () => {
 
   return (
     <>
       <HomePage />
-
-      <Button as="a" variant="primary">
-        Button as link
-      </Button>
+      <FormLogin />
     </>
   )
 }
