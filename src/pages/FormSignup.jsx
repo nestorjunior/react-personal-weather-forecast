@@ -59,6 +59,7 @@ const FormSignup = () => {
     return(
         <>
             <div className="container">
+                <h2>Signup</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="mb-3">
                         <label htmlFor="inputEmail" className="form-label col-form-label-sm">Email address</label>
@@ -67,6 +68,10 @@ const FormSignup = () => {
                     <div className="mb-3">
                         <label htmlFor="inputPassword" className="form-label col-form-label-sm">Password</label>
                         <input type="password" className="form-control" id="inputPassword" onChange={handlePassword} />
+                    </div>
+                    <div className="mb-3">
+                        <label htmlFor="inputRepeatPassword" className="form-label col-form-label-sm">Repeat password</label>
+                        <input type="password" className="form-control" id="inputRepeatPassword" />
                     </div>
                     <button type="submit" className="btn btn-primary">Submit</button>
                 </form>

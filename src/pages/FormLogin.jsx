@@ -23,6 +23,7 @@ const FormLogin = () => {
     return (
         <>
             <div className="container">
+                <h2>Login</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="mb-3">
                         <label htmlFor="inputEmail" className="form-label col-form-label-sm">Email address</label>
